@@ -1,0 +1,21 @@
+{
+  "name": "express-book-review-ibm-final",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IBM Express Book Review REST API final project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test tests/*.test.js",
+    "evidence": "bash scripts/collect-evidence.sh"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {"node": ">=18"},
+  "license": "MIT"
+}
